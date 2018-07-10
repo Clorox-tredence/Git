@@ -1,0 +1,47 @@
+SELECT * from `Final_DataSets.Data_042918`  where value != 0
+
+UNION ALL
+
+SELECT * from `Final_DataSets.Data_042918` where value = 0 and 
+key ='Count_Promo_In_ggi' OR
+key ='Count_Promo_In' OR
+key ='Count_Promo_In_gg' OR
+key ='Count_Promo_In_i' OR
+key ='Count_Promo_Out_gg' OR
+key ='Count_Promo_Out' OR
+key ='Count_Promo_Within_ggi' OR
+key ='Count_Promo_Out_ggi' OR
+key ='Count_Promo_Within' OR
+key ='Count_Promo_Within_i' OR
+key ='Count_Promo_total' OR
+key ='Count_Promo_Out_i' OR
+key ='Count_Promo_Within_gg' OR
+key ='Count_Demo_Out_gg' OR
+key ='Count_Demo_Out_i' OR
+key ='Count_Demo_Within' OR
+key ='Count_Demo_Out' OR
+key ='Count_Demo_In_gg' OR
+key ='Count_Demo_In' OR
+key ='Count_Demo_total' OR
+key ='Count_Demo_Within_gg' OR
+key ='Count_Demo_Out_ggi' OR
+key ='Count_Demo_Within_i' OR
+key ='Count_Demo_In_ggi' OR
+key ='Count_Demo_In_i' OR
+key ='Count_Demo_Within_ggi' OR
+key ='Count_Transfer_total' OR
+key ='Count_Transfer_Within_ggi' OR
+key ='Count_Transfer_Out_gg' OR
+key ='Count_Transfer_Within' OR
+key ='Count_Transfer_Within_gg' OR
+key ='Count_Transfer_In_ggi' OR
+key ='Count_Transfer_In_i' OR
+key ='Count_Transfer_Out_ggi' OR
+key ='Count_Transfer_In_gg' OR
+key ='Count_Transfer_In' OR
+key ='Count_Transfer_Within_i' OR
+key ='Count_Transfer_Out' OR
+key ='Count_Transfer_Out_i' OR
+key ='Count_Hire' OR
+key ='Count_TERMS_regret' OR
+key ='Count_TERMS'
